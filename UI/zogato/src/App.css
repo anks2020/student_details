@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+.Register_container{
+  background: "antiquewhite";
+    padding: 16;
+    top: 40;
+    display:"inline-block";
+    position: "relative";
+    width: 606;
+}
+.MuiInputBase-input MuiOutlinedInput-input{
+  margin-bottom: 10px;
+}
