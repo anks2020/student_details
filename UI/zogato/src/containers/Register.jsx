@@ -33,8 +33,10 @@ class MyApp extends Component{
     // function to match passwords
     matchPassword =(e) =>{
         if(e.target.value!==this.state.password)
-        alert("Password  Mismatch")
-        e.target.value="";
+        {
+            alert("Password  Mismatch")
+            e.target.value="";
+        }
     }
     handleSubmit = (e)=>{
         if(this.state.c_pwd!==this.state.password)
